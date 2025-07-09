@@ -1,12 +1,10 @@
 import './App.css'
-
+import { Outlet } from 'react-router-dom'
 function App() {
 
   return (
     <>
-      <h1 class="text-3xl font-bold underline mt-1.5">
-        Hello world!
-      </h1>
+      <Outlet/>
     </>
   )
 }
